@@ -1,0 +1,123 @@
+{
+  "season": "Spring 1901",
+  "powers": {
+    "England": {
+      "color": "blue",
+      "units": [
+        { "type": "F", "location": "Edinburgh" },
+        { "type": "F", "location": "London" },
+        { "type": "A", "location": "Liverpool" }
+      ],
+      "supplyCenters": ["Edinburgh", "London", "Liverpool"]
+    },
+    "France": {
+      "color": "lightblue",
+      "units": [
+        { "type": "F", "location": "Brest" },
+        { "type": "A", "location": "Paris" },
+        { "type": "A", "location": "Marseilles" }
+      ],
+      "supplyCenters": ["Brest", "Paris", "Marseilles"]
+    },
+    "Germany": {
+      "color": "gray",
+      "units": [
+        { "type": "F", "location": "Kiel" },
+        { "type": "A", "location": "Berlin" },
+        { "type": "A", "location": "Munich" }
+      ],
+      "supplyCenters": ["Kiel", "Berlin", "Munich"]
+    },
+    "Italy": {
+      "color": "green",
+      "units": [
+        { "type": "F", "location": "Naples" },
+        { "type": "A", "location": "Rome" },
+        { "type": "A", "location": "Venice" }
+      ],
+      "supplyCenters": ["Naples", "Rome", "Venice"]
+    },
+    "Austria-Hungary": {
+      "color": "red",
+      "units": [
+        { "type": "F", "location": "Trieste" },
+        { "type": "A", "location": "Vienna" },
+        { "type": "A", "location": "Budapest" }
+      ],
+      "supplyCenters": ["Trieste", "Vienna", "Budapest"]
+    },
+    "Russia": {
+      "color": "white",
+      "units": [
+        { "type": "F", "location": "St Petersburg", "coast": "sc" },
+        { "type": "A", "location": "Moscow" },
+        { "type": "A", "location": "Warsaw" },
+        { "type": "F", "location": "Sevastopol" }
+      ],
+      "supplyCenters": ["St Petersburg", "Moscow", "Warsaw", "Sevastopol"]
+    },
+    "Turkey": {
+      "color": "yellow",
+      "units": [
+        { "type": "A", "location": "Constantinople" },
+        { "type": "A", "location": "Smyrna" },
+        { "type": "F", "location": "Ankara" }
+      ],
+      "supplyCenters": ["Constantinople", "Smyrna", "Ankara"]
+    }
+  },
+  "neutralSupplyCenters": [
+    "Norway", "Sweden", "Denmark", "Holland", "Belgium",
+    "Spain", "Portugal", "Tunis", "Serbia", "Rumania",
+    "Bulgaria", "Greece"
+  ],
+  "territories": {
+    "water": [
+      "North Atlantic Ocean", "Norwegian Sea", "North Sea", "Baltic Sea",
+      "Barents Sea", "English Channel", "Irish Sea", "Mid-Atlantic Ocean",
+      "Western Mediterranean", "Gulf of Lyon", "Tyrrhenian Sea", "Ionian Sea",
+      "Adriatic Sea", "Aegean Sea", "Eastern Mediterranean", "Black Sea",
+      "Helgoland Bight", "Skagerrak", "Gulf of Bothnia"
+    ],
+    "land": [
+      "Clyde", "Edinburgh", "Yorkshire", "Liverpool", "Wales", "London",
+      "Brest", "Picardy", "Paris", "Burgundy", "Gascony", "Marseilles",
+      "Spain", "Portugal", "Belgium", "Holland", "Ruhr", "Kiel", "Berlin",
+      "Munich", "Silesia", "Prussia", "Piedmont", "Tuscany", "Venice",
+      "Rome", "Apulia", "Naples", "Bohemia", "Tyrolia", "Vienna", "Trieste",
+      "Budapest", "Galicia", "Serbia", "Albania", "Greece", "Bulgaria",
+      "Rumania", "St Petersburg", "Livonia", "Moscow", "Warsaw", "Ukraine",
+      "Sevastopol", "Norway", "Sweden", "Denmark", "Finland", "Constantinople",
+      "Ankara", "Smyrna", "Armenia", "Syria", "Tunis", "Egypt", "North Africa"
+    ],
+    "bicoastal": {
+      "Spain": ["nc", "sc"],
+      "St Petersburg": ["nc", "sc"],
+      "Bulgaria": ["ec", "sc"]
+    }
+  },
+  "adjacencies": {
+    "Edinburgh": ["Clyde", "Yorkshire", "North Sea", "Norwegian Sea"],
+    "London": ["Yorkshire", "Wales", "English Channel", "North Sea"],
+    "Liverpool": ["Clyde", "Yorkshire", "Wales", "Irish Sea", "North Atlantic Ocean"],
+    "Brest": ["Picardy", "Gascony", "English Channel", "Mid-Atlantic Ocean"],
+    "Paris": ["Picardy", "Burgundy", "Gascony"],
+    "Marseilles": ["Gascony", "Burgundy", "Piedmont", "Gulf of Lyon"],
+    "Kiel": ["Berlin", "Munich", "Ruhr", "Holland", "Denmark", "Helgoland Bight", "Baltic Sea"],
+    "Berlin": ["Kiel", "Munich", "Silesia", "Prussia", "Baltic Sea"],
+    "Munich": ["Kiel", "Berlin", "Silesia", "Bohemia", "Tyrolia", "Burgundy", "Ruhr"],
+    "Naples": ["Rome", "Apulia", "Tyrrhenian Sea", "Ionian Sea"],
+    "Rome": ["Tuscany", "Apulia", "Naples", "Tyrrhenian Sea"],
+    "Venice": ["Piedmont", "Tuscany", "Apulia", "Trieste", "Tyrolia", "Adriatic Sea"],
+    "Trieste": ["Venice", "Vienna", "Tyrolia", "Budapest", "Albania", "Adriatic Sea"],
+    "Vienna": ["Trieste", "Tyrolia", "Bohemia", "Galicia", "Budapest"],
+    "Budapest": ["Trieste", "Vienna", "Galicia", "Rumania", "Serbia"],
+    "St Petersburg": ["Livonia", "Moscow", "Finland", "Norway", "Barents Sea", "Gulf of Bothnia"],
+    "Moscow": ["St Petersburg", "Livonia", "Warsaw", "Ukraine", "Sevastopol"],
+    "Warsaw": ["Moscow", "Livonia", "Prussia", "Silesia", "Galicia", "Ukraine"],
+    "Sevastopol": ["Moscow", "Ukraine", "Rumania", "Armenia", "Black Sea"],
+    "Constantinople": ["Ankara", "Smyrna", "Bulgaria", "Black Sea", "Aegean Sea"],
+    "Smyrna": ["Constantinople", "Ankara", "Armenia", "Syria", "Aegean Sea", "Eastern Mediterranean"],
+    "Ankara": ["Constantinople", "Smyrna", "Armenia", "Black Sea"]
+  }
+}
