@@ -3,7 +3,7 @@
 // Unit B tries to move to A's current location
 // Unit B should also fail because A is still there
 
-const { resolveSpring1901 } = require('./dist/move-resolution.js');
+const { resolveSpring1901 } = require('../dist/move-resolution.js');
 
 console.log('Testing Chain Bounce Logic\n');
 console.log('=' .repeat(80));

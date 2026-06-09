@@ -1,7 +1,7 @@
 {
-  "name": "llm-comparison",
+  "name": "ai-vs-diplomacy",
   "version": "1.0.0",
-  "description": "Compare responses from multiple LLMs",
+  "description": "Seven LLMs play a full game of Diplomacy against each other",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -11,9 +11,11 @@
   "keywords": [
     "llm",
     "ai",
-    "comparison"
+    "diplomacy",
+    "multi-agent",
+    "simulation"
   ],
-  "author": "",
+  "author": "Quinn Budnick",
   "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",

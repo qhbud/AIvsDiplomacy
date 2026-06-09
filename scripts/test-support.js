@@ -1,4 +1,4 @@
-const { resolveSpring1901, parseMove } = require('./dist/move-resolution');
+const { resolveSpring1901, parseMove } = require('../dist/move-resolution');
 
 // Test the Rumania scenario
 const startingUnits = {

@@ -1,7 +1,7 @@
 // Test for valid movement cycles
 // A->B->C->A should all succeed (valid 3-way cycle)
 
-const { parseMove, resolveSpring1901 } = require('./dist/move-resolution');
+const { parseMove, resolveSpring1901 } = require('../dist/move-resolution');
 
 const unitPositions = {
   'France': [

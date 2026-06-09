@@ -8,7 +8,7 @@
  * 4. Support cutting rules
  */
 
-const { parseMove, resolveSpring1901 } = require('./dist/move-resolution');
+const { parseMove, resolveSpring1901 } = require('../dist/move-resolution');
 
 // Test colors
 const PASS = '\x1b[32m✓\x1b[0m';

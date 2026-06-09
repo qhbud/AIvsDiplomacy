@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { drawMapWithUnits } = require('./dist/draw-map');
+const { drawMapWithUnits } = require('../dist/draw-map');
 
 async function regenerateMaps() {
   const spring1910Dir = 'diplomacy-games/game-2025-12-20T04-57-53-169Z/spring-1910';

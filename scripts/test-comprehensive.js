@@ -1,6 +1,6 @@
 // Comprehensive test of move resolution rules
 
-const { parseMove, resolveSpring1901 } = require('./dist/move-resolution');
+const { parseMove, resolveSpring1901 } = require('../dist/move-resolution');
 
 console.log('=== COMPREHENSIVE MOVE RESOLUTION TESTS ===\n');
 

@@ -1,8 +1,8 @@
 // Regenerate Fall 1910 maps with correct SC ownership
 const fs = require('fs');
 const path = require('path');
-const { drawMapWithUnits } = require('./dist/draw-map');
-const { calculateSupplyCenterOwnership } = require('./dist/move-resolution');
+const { drawMapWithUnits } = require('../dist/draw-map');
+const { calculateSupplyCenterOwnership } = require('../dist/move-resolution');
 
 const gameDir = 'C:\\Users\\Quinn\\Desktop\\AIvsDiplomacy\\diplomacy-games\\game-2025-12-20T04-57-53-169Z';
 const fall1910Dir = path.join(gameDir, 'fall-1910');

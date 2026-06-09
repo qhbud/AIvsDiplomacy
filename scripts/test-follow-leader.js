@@ -3,7 +3,7 @@
 // Ruhr → Belgium (should FAIL - not a cycle)
 // Burgundy → Ruhr (should FAIL - depends on Ruhr moving)
 
-const { parseMove, resolveSpring1901 } = require('./dist/move-resolution');
+const { parseMove, resolveSpring1901 } = require('../dist/move-resolution');
 
 const unitPositions = {
   'France': [

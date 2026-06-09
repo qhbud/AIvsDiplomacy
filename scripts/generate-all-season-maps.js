@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { drawMapWithUnits } = require('./dist/draw-map');
+const { drawMapWithUnits } = require('../dist/draw-map');
 
 // Parse unit positions from moves-and-resolution.txt
 function parseUnitPositions(resolutionText) {

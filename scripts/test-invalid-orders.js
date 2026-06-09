@@ -2,7 +2,7 @@
  * Test that units with invalid orders default to HOLD and defend their position
  */
 
-const { resolveSpring1901 } = require('./dist/move-resolution');
+const { resolveSpring1901 } = require('../dist/move-resolution');
 
 const PASS = '\x1b[32m✓\x1b[0m';
 const FAIL = '\x1b[31m✗\x1b[0m';

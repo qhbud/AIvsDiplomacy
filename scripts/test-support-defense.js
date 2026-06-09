@@ -1,5 +1,5 @@
 // Test that supporting units defend their position
-const { resolveSpring1901 } = require('./dist/move-resolution');
+const { resolveSpring1901 } = require('../dist/move-resolution');
 
 // Scenario: F Black Sea supports A Ukraine to Rumania
 //           F Constantinople tries to move to Black Sea

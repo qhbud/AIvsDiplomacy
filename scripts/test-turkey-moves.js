@@ -1,4 +1,4 @@
-const { parseMove, resolveSpring1901 } = require('./dist/move-resolution');
+const { parseMove, resolveSpring1901 } = require('../dist/move-resolution');
 
 // Turkey's starting units
 const turkeyUnits = [
